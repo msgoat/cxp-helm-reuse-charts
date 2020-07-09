@@ -1,0 +1,9 @@
+apiVersion: v2
+name: cxp-postgresql-wrapped
+description: A wrapper chart for PostgreSQL
+version: 0.1.0
+appVersion: 11.16.0
+dependencies:
+  - name: postgresql
+    version: "8.8.0"
+    repository: "@bitnami"
